@@ -38,11 +38,9 @@ const Header = () => {
 
   const menuItems = [
     { label: 'Home', path: '/' },
-    { label: 'Services', path: '/services' },
-    { label: 'About', path: '/about' },
-    { label: 'Industries Served', path: '/industries' },
-    { label: 'Why Choose Us', path: '/why-choose-us' },
-    { label: 'Contact', action: scrollToFooter }
+    { label: 'Products', path: '/products' },
+    { label: 'About Us', path: '/about' },
+    { label: 'Contact Us', path: '/contact' }
   ];
 
   const drawer = (
@@ -77,7 +75,7 @@ const Header = () => {
               '&:hover': { bgcolor: 'primary.dark' }
             }}
           >
-            <ListItemText primary="Get Consultation" />
+            <ListItemText primary="Get Quote" />
           </ListItemButton>
         </ListItem>
       </List>
@@ -115,55 +113,46 @@ const Header = () => {
                 component={Link} 
                 to="/" 
                 color="inherit" 
-                sx={{ mx: 1, fontSize: { md: '0.875rem', lg: '1rem' } }}
+                sx={{ mx: 1, fontSize: { md: '0.875rem', lg: '1rem' }, fontWeight: 600 }}
               >
                 Home
               </Button>
               <Button 
                 component={Link} 
-                to="/services" 
+                to="/products" 
                 color="inherit" 
-                sx={{ mx: 1, fontSize: { md: '0.875rem', lg: '1rem' } }}
+                sx={{ mx: 1, fontSize: { md: '0.875rem', lg: '1rem' }, fontWeight: 600 }}
               >
-                Services
+                Products
               </Button>
               <Button 
                 component={Link} 
                 to="/about" 
                 color="inherit" 
-                sx={{ mx: 1, fontSize: { md: '0.875rem', lg: '1rem' } }}
+                sx={{ mx: 1, fontSize: { md: '0.875rem', lg: '1rem' }, fontWeight: 600 }}
               >
-                About
+                About Us
               </Button>
               <Button 
                 component={Link} 
-                to="/industries" 
+                to="/contact" 
                 color="inherit" 
-                sx={{ mx: 1, fontSize: { md: '0.875rem', lg: '1rem' } }}
+                sx={{ mx: 1, fontSize: { md: '0.875rem', lg: '1rem' }, fontWeight: 600 }}
               >
-                Industries
-              </Button>
-              <Button 
-                component={Link} 
-                to="/why-choose-us" 
-                color="inherit" 
-                sx={{ mx: 1, fontSize: { md: '0.875rem', lg: '1rem' } }}
-              >
-                Why Choose Us
-              </Button>
-              <Button 
-                color="inherit" 
-                sx={{ mx: 1, fontSize: { md: '0.875rem', lg: '1rem' } }}
-                onClick={scrollToFooter}
-              >
-                Contact
+                Contact Us
               </Button>
               <Button 
                 variant="contained" 
-                sx={{ ml: 2 }}
+                sx={{ 
+                  ml: 2,
+                  background: `linear-gradient(45deg, ${theme.palette.primary.main} 30%, ${theme.palette.primary.light} 90%)`,
+                  '&:hover': {
+                    background: `linear-gradient(45deg, ${theme.palette.primary.dark} 30%, ${theme.palette.primary.main} 90%)`,
+                  }
+                }}
                 onClick={scrollToFooter}
               >
-                Get Consultation
+                Get Quote
               </Button>
             </Box>
           )}
