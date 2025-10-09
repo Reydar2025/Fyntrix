@@ -60,7 +60,7 @@ const About = () => {
   const timeline = [
     {
       year: "2023",
-      title: "REYDAR Founded",
+      title: "FYNTRIX Founded",
       description: "Started our journey with a vision to provide high-quality multistrain home cables to the market."
     },
     {
@@ -99,7 +99,7 @@ const About = () => {
               <Box
                 component="img"
                 src={reydarLogo}
-                alt="REYDAR Logo"
+                alt="FYNTRIX Logo"
                 sx={{
                   height: { xs: '60px', md: '80px' },
                   width: 'auto',
@@ -120,7 +120,7 @@ const About = () => {
                   mb: 3
                 }}
               >
-                About REYDAR
+                About FYNTRIX
               </Typography>
               <Typography
                 variant="h4"
@@ -164,7 +164,7 @@ const About = () => {
                 mb: 3
               }}
             >
-              Welcome to REYDAR
+              Welcome to FYNTRIX
             </Typography>
             <Typography
               variant="h6"
@@ -177,7 +177,7 @@ const About = () => {
               }}
             >
               Founded in 2023, we are a dynamic and innovative company committed to delivering exceptional 
-              products that meet the needs of our customers. At REYDAR, we believe that connectivity is at 
+              products that meet the needs of our customers. At FYNTRIX, we believe that connectivity is at 
               the heart of modern living, and we strive to keep you connected in the most efficient and 
               reliable way possible.
             </Typography>
@@ -241,7 +241,7 @@ const About = () => {
                 color: 'text.primary'
               }}
             >
-              Starting from humble beginnings, REYDAR has rapidly grown into a reputable name in the home 
+              Starting from humble beginnings, FYNTRIX has rapidly grown into a reputable name in the home 
               cable industry. With two years of dedicated service, we have established ourselves as a 
               forward-thinking company with a focus on quality, performance, and customer satisfaction. 
               Our journey has been fueled by a passion for technology and a commitment to understanding 
@@ -423,7 +423,7 @@ const About = () => {
               mx: 'auto'
             }}
           >
-            At REYDAR, our mission is simple: to provide high-quality, innovative solutions that 
+            At FYNTRIX, our mission is simple: to provide high-quality, innovative solutions that 
             enhance the way you connect and communicate at home. We pride ourselves on our commitment 
             to sustainability and excellence, ensuring that our products not only meet industry 
             standards but exceed them. Our goal is to make connectivity effortless and accessible 
@@ -585,7 +585,7 @@ const About = () => {
               mx: 'auto'
             }}
           >
-            As we look to the future, REYDAR is excited to continue expanding our product offerings 
+            As we look to the future, FYNTRIX is excited to continue expanding our product offerings 
             and enhancing the ways you connect your home. We invite you to explore our range of 
             multistrain home cables and experience the difference in quality and performance for yourself. 
             Thank you for being a part of our journey—together, we can embrace a world of connectivity.

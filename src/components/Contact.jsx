@@ -78,13 +78,13 @@ const Contact = () => {
     {
       icon: <Email sx={{ fontSize: 40, color: 'primary.main' }} />,
       title: "Email",
-      details: ["info@reydar.in", "sales@reydar.in"],
+      details: ["info@fyntrix.in", "sales@fyntrix.in"],
       description: "Send us your queries anytime"
     },
     {
       icon: <LocationOn sx={{ fontSize: 40, color: 'primary.main' }} />,
       title: "Address",
-      details: ["REYDAR Electronics", "Indore, Madhya Pradesh", "India - 452001"],
+      details: ["FYNTRIX Electronics", "Indore, Madhya Pradesh", "India - 452001"],
       description: "Visit our office for direct consultation"
     },
     {
@@ -147,7 +147,7 @@ const Contact = () => {
                 mb: 4
               }}
             >
-              Get in Touch with REYDAR
+              Get in Touch with FYNTRIX
             </Typography>
             <Typography
               variant="h6"
@@ -361,7 +361,7 @@ const Contact = () => {
           </Grid>
         </Box>
 
-        {/* Quick Contact and Why Choose REYDAR Sections */}
+        {/* Quick Contact and Why Choose FYNTRIX Sections */}
         <Grid container spacing={6} sx={{ mt: 4,justifyContent: 'center' }}>
           {/* Quick Contact */}
           <Grid item xs={12} md={6}>
@@ -480,7 +480,7 @@ const Contact = () => {
                         lineHeight: 1.5
                       }}
                     >
-                      ✉️ sales@reydar.in
+                      ✉️ sales@fyntrix.in
                     </Typography>
                   </Box>
                   
@@ -521,7 +521,7 @@ const Contact = () => {
                         lineHeight: 1.5
                       }}
                     >
-                      ✉️ support@reydar.in
+                      ✉️ support@fyntrix.in
                     </Typography>
                   </Box>
                 </Box>
@@ -529,7 +529,7 @@ const Contact = () => {
             </Paper>
           </Grid>
 
-          {/* Why Choose REYDAR */}
+          {/* Why Choose FYNTRIX */}
           <Grid item xs={12} md={6}>
             <Paper
               elevation={0}
@@ -583,7 +583,7 @@ const Contact = () => {
                       fontSize: { xs: '1.5rem', md: '1.8rem' }
                     }}
                   >
-                    Why Choose REYDAR?
+                    Why Choose FYNTRIX?
                   </Typography>
                 </Box>
                 
@@ -711,7 +711,7 @@ const Contact = () => {
               variant="outlined"
               size="large"
               startIcon={<Email />}
-              href="mailto:sales@reydar.in"
+              href="mailto:sales@fyntrix.in"
               sx={{
                 px: 4,
                 py: 1.5,

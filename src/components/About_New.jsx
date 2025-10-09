@@ -306,7 +306,7 @@ const About = () => {
             📞 +91-9171690029
           </Typography>
           <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-            ✉️ contact@reydar.in
+            ✉️ contact@fyntrix.in
           </Typography>
           <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
             📍 Indore, India

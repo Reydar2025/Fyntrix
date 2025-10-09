@@ -49,7 +49,7 @@ const Footer = () => {
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Email sx={{ mr: 2, color: 'primary.light' }} />
-              <Typography variant="body2">contact@reydar.in</Typography>
+              <Typography variant="body2">contact@fyntrix.in</Typography>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Phone sx={{ mr: 2, color: 'primary.light' }} />

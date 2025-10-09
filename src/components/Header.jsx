@@ -69,7 +69,7 @@ const Header = () => {
             sx={{ 
               textAlign: 'center',
               bgcolor: 'primary.main',
-              color: 'white',
+              color: 'orange',
               m: 2,
               borderRadius: 1,
               '&:hover': { bgcolor: 'primary.dark' }
@@ -84,7 +84,7 @@ const Header = () => {
 
   return (
     <>
-      <AppBar position="static" elevation={0} sx={{ bgcolor: 'white', color: 'primary.main' }}>
+      <AppBar position="static" elevation={0} sx={{ bgcolor: '#ee9542ff', color: 'white' }}>
         <Toolbar>
           <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
             <img 

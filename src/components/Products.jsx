@@ -888,7 +888,7 @@ const Products = () => {
               fontSize: { xs: '1rem', md: '1.2rem' }
             }}
           >
-            Choose REYDAR for high-quality multistrain home electrical cables. Browse our selection and order online today to ensure your next project is a success!
+            Choose FYNTRIX for high-quality multistrain home electrical cables. Browse our selection and order online today to ensure your next project is a success!
           </Typography>
           <Button
             variant="contained"

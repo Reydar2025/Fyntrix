@@ -47,7 +47,7 @@ const Footer = () => {
                 <Box
                   component="img"
                   src={reydarLogo}
-                  alt="REYDAR Logo"
+                  alt="FYNTRIX Logo"
                   sx={{
                     height: { xs: '60px', md: '70px' },
                     width: 'auto',
@@ -66,7 +66,7 @@ const Footer = () => {
                     textShadow: '0 2px 4px rgba(0, 0, 0, 0.3)'
                   }}
                 >
-                  REYDAR
+                  FYNTRIX
                 </Typography>
               </Box>
               <Typography 
@@ -138,7 +138,7 @@ const Footer = () => {
               >
                 <Email sx={{ mr: 2, color: 'secondary.light', fontSize: 20 }} />
                 <Typography variant="body2" sx={{ fontSize: '0.9rem' }}>
-                  info@reydar.in
+                  info@fyntrix.in
                 </Typography>
               </Box>
               <Box 
@@ -250,7 +250,7 @@ const Footer = () => {
               textShadow: '0 1px 2px rgba(0, 0, 0, 0.3)'
             }}
           >
-            © 2025 REYDAR. All rights reserved.
+            © 2025 FYNTRIX. All rights reserved.
           </Typography>
           <Typography 
             variant="body2" 

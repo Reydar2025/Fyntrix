@@ -185,7 +185,7 @@ const Home = () => {
             <Box
               component="img"
               src={HomeImage}
-              alt="REYDAR Electrical Cables"
+              alt="FYNTRIX Electrical Cables"
               sx={{
                 width: '100%',
                 height: '100%',
@@ -215,7 +215,7 @@ const Home = () => {
                       lineHeight: 1.2
                     }}
                   >
-                    REYDAR
+                    FYNTRIX
                   </Typography>
                   <Typography
                     variant="h3"
@@ -491,7 +491,7 @@ const Home = () => {
           </Box>
         </Box>
 
-        {/* Why Choose REYDAR Cables Section */}
+        {/* Why Choose FYNTRIX Cables Section */}
         <Box 
           sx={{ 
             mb: 8, 
@@ -775,7 +775,7 @@ const Home = () => {
           <Box
             component="img"
             src={reydarLogo}
-            alt="REYDAR Logo"
+            alt="FYNTRIX Logo"
             sx={{
               height: { xs: '40px', md: '60px' },
               width: 'auto',

@@ -1,11 +1,11 @@
-# Reydar Website Deployment Guide
+# fyntrix Website Deployment Guide
 
-## Domain Configuration for https://www.reydar.in
+## Domain Configuration for https://www.fyntrix.in
 
-This guide explains how to deploy your Reydar website to your domain.
+This guide explains how to deploy your fyntrix website to your domain.
 
 ## Prerequisites
-- Domain: https://www.reydar.in
+- Domain: https://www.fyntrix.in
 - Hosting provider (Netlify, Vercel, or any static hosting)
 
 ## Deployment Steps
@@ -16,12 +16,12 @@ This guide explains how to deploy your Reydar website to your domain.
    npm run build
    ```
 2. Upload the `dist` folder to Netlify
-3. Configure custom domain to `www.reydar.in`
+3. Configure custom domain to `www.fyntrix.in`
 4. The `_redirects` file is already configured for SPA routing
 
 ### Option 2: Vercel Deployment
 1. Connect your GitHub repository to Vercel
-2. Configure custom domain to `www.reydar.in`
+2. Configure custom domain to `www.fyntrix.in`
 3. The `vercel.json` file is already configured
 
 ### Option 3: Manual Deployment

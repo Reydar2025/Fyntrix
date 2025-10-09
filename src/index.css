@@ -1,4 +1,4 @@
-/* Modern REYDAR Electrical Cables Website Styles */
+/* Modern FYNTRIX Electrical Cables Website Styles */
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 :root {
-  /* REYDAR Brand Colors */
+  /* FYNTRIX Brand Colors */
   --primary-color: #2c5aa0;
   --primary-light: #5e87d6;
   --primary-dark: #1d3d70;
@@ -399,7 +399,7 @@ select:focus {
   }
 }
 
-/* Why Choose REYDAR Cables Section - Enhanced Styling */
+/* Why Choose FYNTRIX Cables Section - Enhanced Styling */
 .why-choose-cards .MuiGrid-container {
   max-width: 1000px !important;
   margin: 0 auto !important;
