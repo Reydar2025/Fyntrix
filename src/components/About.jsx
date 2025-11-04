@@ -96,7 +96,7 @@ const About = () => {
         <Container maxWidth="lg">
           <Fade in={isVisible} timeout={1000}>
             <Box sx={{ textAlign: 'center', mb: 6 }}>
-              <Box
+              {/* <Box
                 component="img"
                 src={reydarLogo}
                 alt="FYNTRIX Logo"
@@ -105,7 +105,7 @@ const About = () => {
                   width: 'auto',
                   mb: 4
                 }}
-              />
+              /> */}
               <Typography
                 variant="h1"
                 component="h1"

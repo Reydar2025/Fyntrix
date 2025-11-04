@@ -137,7 +137,7 @@ const Home = () => {
       {/* Hero Section */}
       <Box
         sx={{
-          minHeight: { xs: '70vh', md: '90vh' },
+          minHeight: { xs: '100vh', md: '90vh' },
           display: 'flex',
           alignItems: 'center',
           background: `linear-gradient(135deg, 
@@ -145,7 +145,8 @@ const Home = () => {
             ${theme.palette.secondary.main}10 50%, 
             ${theme.palette.primary.light}15 100%)`,
           position: 'relative',
-          overflow: 'hidden'
+          overflow: 'hidden',
+          pt: { xs: 8, md: 0 }
         }}
       >
         {/* Background Pattern */}
@@ -162,24 +163,37 @@ const Home = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            opacity: 0.1,
-            display: { xs: 'none', lg: 'block' }
+            opacity: 1,
+            display: 'block',
+            zIndex: 0,
+            '&::after': {
+              content: '""',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              background: 'linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,0.5))',
+              zIndex: 1
+            }
           }}
         />
 
-        {/* Hero Image */}
+        {/* Hero Image - Only visible on desktop */}
         <Slide direction="left" in={heroVisible} timeout={1200}>
           <Box
             sx={{
               position: 'absolute',
-              top: { xs: '60px', md: '80px' },
-              right: { xs: '20px', md: '60px' },
-              width: { xs: '250px', sm: '300px', md: '400px', lg: '500px' },
-              height: { xs: '200px', sm: '250px', md: '320px', lg: '400px' },
+              top: { md: '80px' },
+              right: { md: '60px' },
+              width: { md: '400px', lg: '500px' },
+              height: { md: '320px', lg: '400px' },
               borderRadius: 4,
               overflow: 'hidden',
               boxShadow: '0 20px 40px rgba(0,0,0,0.1)',
-              zIndex: 2
+              zIndex: 2,
+              display: { xs: 'none', md: 'block' }, // Hidden on mobile, shown on medium and larger screens
+              visibility: { xs: 'hidden', md: 'visible' } // Additional visibility control
             }}
           >
             <Box
@@ -189,7 +203,8 @@ const Home = () => {
               sx={{
                 width: '100%',
                 height: '100%',
-                objectFit: 'cover'
+                objectFit: 'cover',
+                display: { xs: 'none', md: 'block' } // Also hide the image itself on mobile
               }}
             />
           </Box>
@@ -197,9 +212,16 @@ const Home = () => {
         
         <Container maxWidth="lg">
           <Grid container spacing={4} alignItems="center">
-            <Grid item xs={12}>
+            <Grid item xs={12} md={8} lg={7}>
               <Fade in={heroVisible} timeout={1000}>
-                <Box>
+                <Box sx={{
+                  position: 'relative',
+                  zIndex: 2,
+                  backdropFilter: 'blur(8px)',
+                  borderRadius: { xs: 2, md: 0 },
+                  p: { xs: 3, md: 0 },
+                  bgcolor: { xs: 'rgba(255,255,255,0.7)', md: 'transparent' }
+                }}>
                   <Typography
                     variant="h1"
                     component="h1"
